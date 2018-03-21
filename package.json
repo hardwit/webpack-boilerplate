@@ -1,13 +1,15 @@
 {
-  "name": "bootstrap4-webpack4-boilerplate",
+  "name": "webpack-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "",
+  "repository": "git@github.com:hardwit/webpack-boilerplate.git",
   "author": "Hardwit",
   "license": "MIT",
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.js",
-    "build": "webpack -p --progress --mode production --config webpack.config.js"
+    "dev":
+      "cross-env NODE_ENV=dev webpack-dev-server --progress --open --mode development --config webpack.config.js",
+    "build":
+      "webpack -p --progress --mode production --config webpack.config.js"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
