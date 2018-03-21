@@ -1,4 +1,4 @@
-Webpack 4 Boilerplate
+# Webpack 4 Boilerplate
 
 > Webpack 4 boilerplate with Babel, Bootstrap 4, jQuery and SCSS on board
 
