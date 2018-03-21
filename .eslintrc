@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": "google",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "rules": {
+    "semi": 0
+  }
+}
