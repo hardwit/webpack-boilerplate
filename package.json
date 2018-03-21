@@ -13,8 +13,6 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.1"
   },
